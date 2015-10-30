@@ -240,7 +240,7 @@ Deletes all mappings.
     my %mock_methods = (
          simple_request => \&simple_request,
          map            => \&map,
-         map_passtrough => \&map_passthrough,
+         map_passthrough=> \&map_passthrough,
          unmap          => \&unmap,
          unmap_all      => \&unmap_all,
     );
